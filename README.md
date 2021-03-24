@@ -11,3 +11,9 @@ Marketplace.sol - https://testnet.bscscan.com/address/0xe22c542739657ea401486961
 MiniMeToken.sol - https://testnet.bscscan.com/address/0x71205deaae6247e8c5b5131f34b9a7a41cb630f4#code
 
 EstateRegistry.sol - https://testnet.bscscan.com/address/0x51b11c87e5a2c0f59fa4c4011b5b3c09f33b9216#code
+
+BNSRegistry.sol - https://testnet.bscscan.com/address/0x8c3ad9dfc16c32f0b32bb40e24778a331b2bcb3b#code
+
+BNSRegistryWithFallback.sol - https://testnet.bscscan.com/address/0xd0259647f1d31f4270889a3447b362d6f7823f94#code
+
+BRLRegistrar.sol - 
