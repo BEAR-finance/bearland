@@ -1397,7 +1397,7 @@ contract ERC721Full is ERC721, ERC721Enumerable, ERC721Metadata {
     }
 }
 
-// File: contracts/interfaces/IBNSRegistry.sol
+// File: contracts/interfaces/IENSRegistry.sol
 
 pragma solidity ^0.5.15;
 
@@ -1405,7 +1405,7 @@ pragma solidity ^0.5.15;
  * @title EnsRegistry
  * @dev Extract of the interface for BNS Registry
  */
-contract IBNSRegistry {
+contract IENSRegistry {
     function setOwner(bytes32 node, address owner) public;
 
     function setSubnodeOwner(
@@ -1421,7 +1421,7 @@ contract IBNSRegistry {
     function resolver(bytes32 node) public view returns (address);
 }
 
-// File: contracts/interfaces/IBNSResolver.sol
+// File: contracts/interfaces/IENSResolver.sol
 
 pragma solidity ^0.5.15;
 
@@ -1429,7 +1429,7 @@ pragma solidity ^0.5.15;
  * @title EnsResolver
  * @dev Extract of the interface for BNS Resolver
  */
-contract IBNSResolver {
+contract IENSResolver {
     /**
      * Sets the address associated with an BNS node.
      * May only be called by the owner of that node in the BNS registry.
@@ -1555,16 +1555,16 @@ contract IERC20Token is IERC20 {
     function burn(uint256 amount) public;
 }
 
-// File: contracts/ens/BRLRegistrar.sol
+// File: contracts/bns/DCLRegistrar.sol
 
 pragma solidity ^0.5.15;
 
-contract BRLRegistrar is ERC721Full, Ownable {
+contract DCLRegistrar is ERC721Full, Ownable {
     using Address for address;
     bytes4 public constant ERC721_RECEIVED = 0x150b7a02;
 
     // The BNS registry
-    IBNSRegistry public registry;
+    IENSRegistry public registry;
     // The BNS base registrar
     IBaseRegistrar public base;
 
@@ -1575,7 +1575,7 @@ contract BRLRegistrar is ERC721Full, Ownable {
     bytes32 emptyNamehash = 0x00;
     // Top domain e.g: eth
     string public topdomain;
-    // Domain e.g: brl
+    // Domain e.g: dcl
     string public domain;
     // Top domain hash
     bytes32 public topdomainNameHash;
@@ -1614,8 +1614,8 @@ contract BRLRegistrar is ERC721Full, Ownable {
 
     // Emitted when the registry was updated
     event RegistryUpdated(
-        IBNSRegistry indexed _previousRegistry,
-        IBNSRegistry indexed _newRegistry
+        IENSRegistry indexed _previousRegistry,
+        IENSRegistry indexed _newRegistry
     );
     // Emitted when the base was updated
     event BaseUpdated(
@@ -1679,16 +1679,16 @@ contract BRLRegistrar is ERC721Full, Ownable {
      * @param _registry - address of the BNS registry contract
      * @param _base - address of the BNS base registrar contract
      * @param _topdomain - top domain (e.g. "eth")
-     * @param _domain - domain (e.g. "brl")
+     * @param _domain - domain (e.g. "dcl")
      * @param _baseURI - base URI for token URIs
      */
     constructor(
-        IBNSRegistry _registry,
+        IENSRegistry _registry,
         IBaseRegistrar _base,
         string memory _topdomain,
         string memory _domain,
         string memory _baseURI
-    ) public ERC721Full('BRL Registrar', 'BRLBNS') {
+    ) public ERC721Full('DCL Registrar', 'DCLENS') {
         // BNS registry
         updateRegistry(_registry);
         // BNS base registrar
@@ -1744,7 +1744,7 @@ contract BRLRegistrar is ERC721Full, Ownable {
     }
 
     /**
-     * @dev Allows to create a subdomain (e.g. "nacho.brl.eth"), set its resolver, owner and target address
+     * @dev Allows to create a subdomain (e.g. "nacho.dcl.eth"), set its resolver, owner and target address
      * @param _subdomain - subdomain  (e.g. "nacho")
      * @param _beneficiary - address that will become owner of this new subdomain
      */
@@ -1950,7 +1950,7 @@ contract BRLRegistrar is ERC721Full, Ownable {
     }
 
     /**
-     * @dev Re-claim the ownership of the domain (e.g. "brl")
+     * @dev Re-claim the ownership of the domain (e.g. "dcl")
      * @notice After a domain is transferred by the BNS base
      * registrar to this contract, the owner in the BNS registry contract
      * is still the old owner. Therefore, the owner should call `reclaimDomain`
@@ -2039,7 +2039,7 @@ contract BRLRegistrar is ERC721Full, Ownable {
      * @dev Update to new BNS registry
      * @param _registry The address of new BNS registry to use
      */
-    function updateRegistry(IBNSRegistry _registry) public onlyOwner {
+    function updateRegistry(IENSRegistry _registry) public onlyOwner {
         require(
             registry != _registry,
             'New registry should be different from old'
