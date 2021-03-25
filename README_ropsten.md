@@ -12,10 +12,10 @@ MiniMeToken.sol - https://ropsten.etherscan.io/address/0xd52d275c9fa15e6ae31a4da
 
 EstateRegistry.sol - https://ropsten.etherscan.io/address/0xd8dbe60aeb7cd1f04df2fd89e35e418346508672#code
 
-BNSRegistry.sol - https://testnet.bscscan.com/address/0x8c3ad9dfc16c32f0b32bb40e24778a331b2bcb3b#code
+BNSRegistry.sol - https://ropsten.etherscan.io/address/0x825d4514eba23a574568528fca312c6b95f1e73d#code
 
-BNSRegistryWithFallback.sol - https://testnet.bscscan.com/address/0xd0259647f1d31f4270889a3447b362d6f7823f94#code
+BNSRegistryWithFallback.sol - https://ropsten.etherscan.io/address/0x1a1ed9619513b25898d072748c915e5e5e515838#code
 
-BaseRegistrarImplementation.sol - https://testnet.bscscan.com/address/0x23526b22016ce5ca84b31d097de3877bc563f1ac#code
+BaseRegistrarImplementation.sol - https://ropsten.etherscan.io/address/0x528578badde02ac82774028eb776dc07aa409b50#code
 
-DCLRegistrar.sol - https://testnet.bscscan.com/address/0x28b108ecd05c5dfb5e1ba32d849f4585dc9f6f20#code
+DCLRegistrar.sol - https://ropsten.etherscan.io/address/0x460b01a32b18a1fb1416da2440e54b593c701238#code
