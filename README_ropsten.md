@@ -19,3 +19,5 @@ BNSRegistryWithFallback.sol - https://ropsten.etherscan.io/address/0x1a1ed961951
 BaseRegistrarImplementation.sol - https://ropsten.etherscan.io/address/0x528578badde02ac82774028eb776dc07aa409b50#code
 
 DCLRegistrar.sol - https://ropsten.etherscan.io/address/0x460b01a32b18a1fb1416da2440e54b593c701238#code
+
+ERC721Bid.sol - https://ropsten.etherscan.io/address/0xa5a59e812ec2eeb65f73f997e71ee6126f907ed3#code
