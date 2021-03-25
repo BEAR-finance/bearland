@@ -16,4 +16,6 @@ BNSRegistry.sol - https://testnet.bscscan.com/address/0x8c3ad9dfc16c32f0b32bb40e
 
 BNSRegistryWithFallback.sol - https://testnet.bscscan.com/address/0xd0259647f1d31f4270889a3447b362d6f7823f94#code
 
-BRLRegistrar.sol - 
+BaseRegistrarImplementation.sol - https://testnet.bscscan.com/address/0x23526b22016ce5ca84b31d097de3877bc563f1ac#code
+
+DCLRegistrar.sol - https://testnet.bscscan.com/address/0x28b108ecd05c5dfb5e1ba32d849f4585dc9f6f20#code
