@@ -4,7 +4,7 @@ ROPSTEN TESTNET:
 
 USDToken.sol (MANA) - https://ropsten.etherscan.io/address/0xc267090d65b9389c5006d49b2c46b86c71470acb#code
 
-LandRegistry.sol - https://ropsten.etherscan.io/address/0x5e6beae1b8999c00e3781b550f14074cfdfe6c51#code
+LandRegistry.sol - https://ropsten.etherscan.io/address/0xead5be7a17881adc74419565dbd67508979ad2f4#writeContract
 
 Marketplace.sol - https://ropsten.etherscan.io/address/0xd075116d6eb21afabfc58fdc8a115c5bf044a0fe#code
 
