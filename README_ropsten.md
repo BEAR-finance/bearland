@@ -29,3 +29,9 @@ PancakeConverter.sol - https://ropsten.etherscan.io/address/0x2782eb28Dcb1eF4E76
 AUCTION:
 
 TerraformReserve.sol - https://ropsten.etherscan.io/address/0xea6515817d214f8b0e790aa86d8b344787292e75#code
+
+
+##########################################
+
+Contracts ref:
+Has to be the same, to pull like from here: https://contracts.decentraland.org/addresses.json
