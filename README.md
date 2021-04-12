@@ -10,6 +10,8 @@ Marketplace.sol - https://ropsten.etherscan.io/address/0xd075116d6eb21afabfc58fd
 
 LegacyMarketplace.sol - https://ropsten.etherscan.io/address/0x1f919f0ba3e29efa8d53745f50da253cca71b910#code
 
+BearlandInvite.sol - https://ropsten.etherscan.io/address/0x2039f5d578e9c19d60e26ed50947fa9bb3099093#code
+
 MiniMeToken.sol - https://ropsten.etherscan.io/address/0xd52d275c9fa15e6ae31a4da2a1c10a31cbb531b9#code
 
 EstateRegistry.sol - https://ropsten.etherscan.io/address/0xd8dbe60aeb7cd1f04df2fd89e35e418346508672#code
