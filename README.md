@@ -30,6 +30,8 @@ PancakeConverter.sol - https://ropsten.etherscan.io/address/0x2782eb28Dcb1eF4E76
 
 RCNToken.sol - https://ropsten.etherscan.io/address/0x894213f24756b62521a671ef1f823f57c801839e#code
 
+NanoLoanEngine.sol - https://ropsten.etherscan.io/address/0xb3b10fa2668a940ee98fa79c312b430d86768c71#code
+
 ###################################################################################################################
 
 AUCTION:
