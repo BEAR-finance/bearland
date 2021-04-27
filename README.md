@@ -24,6 +24,8 @@ BaseRegistrarImplementation.sol - https://ropsten.etherscan.io/address/0x528578b
 
 DCLRegistrar.sol - https://ropsten.etherscan.io/address/0x460b01a32b18a1fb1416da2440e54b593c701238#code
 
+DCLController.sol - https://ropsten.etherscan.io/address/0xfa899ac3a8e1d312e0cada0f38e1775240bec09d#code
+
 ERC721Bid.sol - https://ropsten.etherscan.io/address/0xa5a59e812ec2eeb65f73f997e71ee6126f907ed3#code
 
 PancakeConverter.sol - https://ropsten.etherscan.io/address/0x2782eb28Dcb1eF4E7632273cd4e347e130Ce4646#code
