@@ -1,4 +1,15 @@
 # Bearland
+BSC MAINNET: 
+
+USDToken.sol (Bearland USD) - https://bscscan.com/address/0x52844427435574239e063c98a81670b94093ac8d
+
+LandRegistry.sol - https://bscscan.com/address/0x745e885cf0c4dacada48bf8aa0ff058cb6a05e37
+
+Marketplace.sol - pending
+
+ERC721Bid.sol - pending
+
+EstateRegistry.sol - pending
 
 ROPSTEN TESTNET: 
 
