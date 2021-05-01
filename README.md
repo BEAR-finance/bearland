@@ -5,11 +5,11 @@ USDToken.sol (Bearland USD) - https://bscscan.com/address/0x52844427435574239e06
 
 LandRegistry.sol - https://bscscan.com/address/0x745e885cf0c4dacada48bf8aa0ff058cb6a05e37
 
-Marketplace.sol - pending
+Marketplace.sol - https://bscscan.com/address/0xf6512ea6bfd958e4bbb77eb7f23cd027a9800543
 
-ERC721Bid.sol - pending
+ERC721Bid.sol - https://bscscan.com/address/0x6f5e8158eefd4b870e7c02147216c581010b058f
 
-EstateRegistry.sol - pending
+EstateRegistry.sol - pending (needs proxy removal)
 
 ROPSTEN TESTNET: 
 
